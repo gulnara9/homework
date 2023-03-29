@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   nav {
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 5%;
+}
+
+nav ul li {
+  display: none;
+}
+
+nav ul li:first-child {
+  display: block;
+}
+
+nav ul li:first-child a {
+  padding: 14px 16px;
+  margin: 3px;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li:not(:first-child) {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    animation: beat-fade 1s infinite;
+  }
+
+  @keyframes beat-fade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    50% {
+      transform: scale(1.1);
+      opacity: 0.7;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  nav ul li a:first-child {
+    padding: 14px 5%;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 14px 16px;
+    margin: 3px;
+    text-align: center;
+  }
+}
+    </style>
+</head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a class="hidden" href="About">About</a></li>
+        <li><a class="hidden" href="Contact">Contact</a></li>
+        <li><a class="hidden" href="Shop">Shop</a></li>
+        <li><a class="hidden" href="Team">Team</a></li>
+        <li><a class="hidden" href=""><i class="fa-solid fa-magnifying-glass fa-bounce"></i></a></li>
+        
+      </ul>
+      <div class="menu-icon"><i class="fa-solid fa-bars fa-beat-fade"></i></div>
+    </nav>
+  </body>
+</html>
