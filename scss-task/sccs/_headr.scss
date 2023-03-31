@@ -1,0 +1,83 @@
+header {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  background-image: url(/images/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
+  &:hover {
+    .text {
+      .qapaq {
+        display: block;
+      }
+    }
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 200px;
+
+      li {
+        list-style-type: none;
+        text-decoration: none;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        &:hover,
+        ::after {
+          content: "";
+          border-bottom: 2px solid red;
+          border-width: 50%;
+          a {
+            padding: 15px 20px;
+            text-transform: uppercase;
+            background-color: burlywood;
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .text {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 30px;
+    position: relative;
+    h3 {
+      font-family: "Delicious Handrawn", cursive;
+      font-size: 50px;
+      text-decoration: line-through 5px;
+    }
+    h1 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 70px;
+      width: 100px;
+      text-transform: uppercase;
+    }
+  }
+  .qapaq {
+    img {
+      width: 500px;
+      border-radius: 50%;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      //   display: none;
+      &:hover {
+        transform: translate(-100px, 100px);
+      }
+    }
+  }
+}

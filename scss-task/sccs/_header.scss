@@ -1,0 +1,119 @@
+header {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  background-image: url(/images/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  color: #ffffff;
+  &:hover {
+    .text {
+      .qapaq {
+        display: block;
+      }
+    }
+  }
+  nav {
+    // position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 160px;
+      li {
+        padding: 7px;
+        display: flex;
+        // position: relative;
+        list-style-type: none;
+        text-decoration: none;
+        
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        &:hover {
+          border-bottom: 3px solid red;
+        //   width: 23px;
+
+          //   text-decoration: underline red;
+          //   text-decoration-line: underline 50%;
+
+          //     &::after {
+          //         position: absolute;
+          //         left: 0;
+          //         bottom: -5px;
+          //   content: "=";
+          //   border-bottom: 2px solid red;
+          // //   border-width: 50%;
+          // border-bottom-width: 50px;
+
+          // }
+        }
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: 100%;
+    position: fixed;
+    top: 10vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .text {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      row-gap: 30px;
+      position: relative;
+      h3 {
+        font-family: "Delicious Handrawn", cursive;
+        font-size: 50px;
+        text-decoration: line-through 5px;
+      }
+      h1 {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 70px;
+        width: 100px;
+        text-transform: uppercase;
+      }
+      .button {
+        padding: 15px 20px;
+        text-transform: uppercase;
+        background-color: rgb(157, 123, 78);
+        text-decoration: none;
+        color: white;
+        &:hover{
+            background-color: rgb(162, 134, 97);
+        }
+      }
+    }
+    .cover-img {
+      img {
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-60%, 40%);
+        &:hover{
+            transform: translate(-80%, 60%);
+            transition-duration: 3S;
+        }
+      }
+    }
+  }
+}
