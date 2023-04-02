@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  background-color: rgb(251, 241, 228);
+  /* border-bottom: 1px solid black; */
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+#header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#header .fa-bars {
+  display: none;
+}
+
+#header nav ul {
+  display: flex;
+  column-gap: 25px;
+}
+#header nav li a {
+  color: black;
+}
+
+#header .logo {
+  text-shadow: 3px 3px 4px orange;
+}
+#header .logo span {
+  color: orange;
+}
+
+/* BANNER SECTION */
+#hero-banner {
+  background-color: rgb(251, 241, 228);
+  /* margin-top: 57px; */
+}
+#hero-banner .hero-banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero-banner .hero-banner .hero-banner-info,
+#hero-banner .hero-banner .hero-banner-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner-image .border {
+  width: 200px;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+.hero-banner-image .border img {
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  top: -15px;
+  left: -20px;
+}
+.hero-banner .hero-banner-info {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.hero-banner .line {
+  border: 2px solid orange;
+  width: 100px;
+}
+.hero-banner .hero-banner-info .title {
+  font-size: 48px;
+}
+.hero-banner .hero-banner-info .position {
+  font-size: 24px;
+  color: gray;
+}
+.social-icons {
+  font-size: 20px;
+}
+.hero-banner .hero-banner-info .hire-me {
+  background-color: orange;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 100px;
+  border: 1px solid orange;
+}
+
+/* BANNER 2 SECTION */
+#about-banner {
+  background-color: rgb(255, 255, 255);
+  /* margin-top: 57px; */
+}
+#about-banner .about-banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+#about-banner .about-banner .about-banner-info,
+#about-banner .about-banner .about-banner-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-banner-image .border {
+  width: 200px;
+  border: 2px solid orange;
+  border-radius: 5px;
+}
+.about-banner-image .border img {
+  width: 200px;
+  border-radius: 5px;
+  position: relative;
+  bottom: -15px;
+  right: -20px;
+}
+.about-banner .about-banner-info {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.about-banner .line {
+  border: 2px solid orange;
+  width: 50px;
+}
+.about-banner .about-banner-info .title {
+  font-size: 36px;
+}
+.about-banner .about-banner-info .about {
+  font-size: 16px;
+  width: auto;
+  height: auto;
+  color: rgb(0, 0, 0);
+  /* text-align: center; */
+}
+.about-banner .about-banner-info .about-me {
+  background-color: orange;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  width: 100px;
+  border: 1px solid orange;
+}
+
+/* Services-banner */
+#services-banner {
+  background-color: rgb(233, 245, 251);
+}
+.basliq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.services .title {
+  font-size: 36px;
+}
+.services .line {
+  border: 2px solid orange;
+  width: 100px;
+}
+.services-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.line1 {
+  border: 2px solid orange;
+  width: 30px;
+  margin: 0 60px;
+}
+.boxes {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  border-radius: 5px;
+  gap: 20px;
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.services i {
+  font-size: 40px;
+}
+.services p {
+  color: cadetblue;
+  line-height: 25px;
+}
+.services .box:hover {
+  background-color: orange;
+  color: white !important;
+}
+/* footer */
+footer {
+  height: 30vh;
+  background-color: rgb(57, 60, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .social-icons {
+  /* margin-right: 40px; */
+  color: rgb(181, 181, 88);
+}
+footer .social-icons .fa-brands {
+  margin-left: 40px;
+}
+footer p {
+  color: cadetblue;
+}
+
+@media only screen and (max-width: 992px) {
+  #hero-banner .hero-banner,
+  #about-banner .about-banner,
+  #services-banner .services .boxes {
+    height: max-content;
+    /* display: block; */
+    padding: 100px 0;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .hero-banner-info,.hero-banner-image,.about-banner-info, .about-banner-image{
+    padding: 20px;
+  }
+}
