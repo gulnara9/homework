@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+header {
+  width: 1440px;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  nav {
+    width: 100%;
+    background-color: #20484f;
+    height: 75px;
+    width: 1440px;
+    padding: 0 5%;
+    border-radius: 0px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    ul {
+      display: flex;
+      gap: 25px;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+    .signup-login-btns {
+      display: flex;
+      gap: 20px;
+      a {
+        border-radius: 5px;
+        padding: 10px 16px;
+      }
+      .login-btn {
+        background-color: transparent;
+        color: white;
+      }
+      .sign-up-btn {
+        background-color: $primary-color;
+        color: $dark-green;
+        //     border-radius: 5px;
+        //     padding: 10px 16px;
+        //   }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+#hero-banner {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 1440px;
+  .hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+    .illustration {
+      margin-top: 86px;
+    }
+    .text {
+      gap: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        width: 700px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        width: 500px;
+      }
+    }
+    .input {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 15px;
+      height: 58px;
+      width: 457px;
+      input {
+        border: none;
+        outline-style: none;
+      }
+      .sign-up-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: $primary-color;
+        color: $dark-green;
+        width: 136px;
+        height: 58px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+.container2 {
+  color: white;
+  height: 900px;
+  font-size: 400;
+  img {
+    width: 100%;
+  }
+  .content {
+   padding: 83px 139px 103px 120px;
+    background-color: $dark-green;
+    img {
+      width: 56px;
+      height: 56px;
+    }
+  }
+}

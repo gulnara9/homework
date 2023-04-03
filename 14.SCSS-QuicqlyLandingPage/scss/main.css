@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+header {
+  width: 1440px;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+header nav {
+  width: 100%;
+  background-color: #20484f;
+  height: 75px;
+  width: 1440px;
+  padding: 0 5%;
+  border-radius: 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+header nav ul {
+  display: flex;
+  gap: 25px;
+}
+header nav ul li a {
+  color: white;
+}
+header nav .signup-login-btns {
+  display: flex;
+  gap: 20px;
+}
+header nav .signup-login-btns a {
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+header nav .signup-login-btns .login-btn {
+  background-color: transparent;
+  color: white;
+}
+header nav .signup-login-btns .sign-up-btn {
+  background-color: #B8E4DA;
+  color: #20484F;
+}
+
+#hero-banner {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 1440px;
+}
+#hero-banner .hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 36px;
+}
+#hero-banner .hero-banner .illustration {
+  margin-top: 86px;
+}
+#hero-banner .hero-banner .text {
+  gap: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero-banner .hero-banner .text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  width: 700px;
+}
+#hero-banner .hero-banner .text p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 500px;
+}
+#hero-banner .hero-banner .input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  height: 58px;
+  width: 457px;
+}
+#hero-banner .hero-banner .input input {
+  border: none;
+  outline-style: none;
+}
+#hero-banner .hero-banner .input .sign-up-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #B8E4DA;
+  color: #20484F;
+  width: 136px;
+  height: 58px;
+  box-sizing: border-box;
+}
+
+.container2 {
+  color: white;
+  height: 900px;
+  font-size: 400;
+}
+.container2 img {
+  width: 100%;
+}
+.container2 .content {
+  padding: 83px 139px 103px 120px;
+  background-color: #20484F;
+}
+.container2 .content img {
+  width: 56px;
+  height: 56px;
+}/*# sourceMappingURL=main.css.map */
