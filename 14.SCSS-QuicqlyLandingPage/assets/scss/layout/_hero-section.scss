@@ -1,0 +1,99 @@
+.hero-section {
+  height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fafafa;
+  .double-div {
+    position: relative;
+    display: flex;
+    gap: 150px;
+    // align-items: center;
+    justify-content: space-between;
+    .texts {
+      margin-left: 5%;
+      width: 50%;
+      color: #072125;
+      margin-top: 217px;
+      h5 {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 64px;
+        margin-bottom: 32px;
+      }
+      p {
+        margin-bottom: 48px;
+        font-weight: 400;
+        font-size: 24px;
+      }
+      .buttons {
+        display: flex;
+        gap: 20px;
+        a {
+          border-radius: 5px;
+          padding: 10px 16px;
+        }
+        .learn-more-btn {
+          background-color: transparent;
+          color: $dark-green;
+          padding: 15px 36px;
+        }
+        .sign-up-btn {
+          background-color: $dark-green;
+          color: $primary-color;
+          border-radius: 5px;
+          padding: 15px 36px;
+        }
+      }
+    }
+    .image {
+      margin-top: 190px;
+      margin-right: 5%;
+      position: relative;
+      width: 50%;
+      .girl-img {
+        .girl {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 415px;
+          height: 490px;
+          z-index: 1;
+        }
+      }
+
+      #frame {
+        .frame {
+          position: absolute;
+          top: -50px;
+          right: -55px;
+          width: 541px;
+          height: 601px;
+        }
+      }
+    }
+  }
+  .tasks {
+    .task {
+      z-index: 6;
+      position: absolute;
+      top: 35%;
+      right: 0;
+    }
+    .project {
+      z-index: 6;
+      position: absolute;
+      bottom: -15%;
+      right: 15%;
+    }
+  }
+  @media only screen {
+    .hero-section {
+      .double-div {
+        flex-direction: column;
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+header {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100%;
+  background-color: $dark-green;
+  nav {
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    .fa-bars{
+      display: none;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .signup-login-btns {
+      display: flex;
+      gap: 20px;
+      a {
+        border-radius: 5px;
+        padding: 10px 16px;
+      }
+      .login-btn {
+        background-color: transparent;
+        color: white;
+      }
+      .sign-up-btn {
+        background-color: $primary-color;
+        color: $dark-green;
+        border-radius: 5px;
+        padding: 10px 16px;
+      }
+    }
+    .signup-login-btns {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      a {
+        color: white;
+      }
+    }
+  }
+}

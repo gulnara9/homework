@@ -1,0 +1,46 @@
+#team-section{
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    height: 100vh;
+    margin-top: 100px;
+    
+    .team{padding-bottom: 80px;
+        .texts{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            text-align: center;
+            margin-bottom: 50px;
+
+            h2{
+                font-weight: 700;
+                font-size: 40px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                width: 500px;
+            }
+        }
+        div{
+  text-align: center;
+            
+        }
+        h4{
+            
+            font-weight: 700;
+            font-size: 24px;
+        }
+        p{
+            
+            font-weight: 400;
+            font-size: 18px;
+            color: $dark-green;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+}

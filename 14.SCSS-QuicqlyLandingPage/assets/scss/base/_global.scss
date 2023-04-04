@@ -1,0 +1,21 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+@media only screen (max-width: 767) {
+  header {
+    .fa-bars {
+      display: none;
+    }
+  }
+  
+}

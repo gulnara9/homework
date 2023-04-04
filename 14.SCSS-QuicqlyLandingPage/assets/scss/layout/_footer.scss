@@ -1,0 +1,59 @@
+footer {
+  height: 50vh;
+  background-color: #072125;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+
+  color: white;
+  .footer {
+    margin: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .name-icons {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-direction: column ;
+      .icons {
+        i {
+          margin-right: 20px;
+          border: 1px solid white;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          padding: 7px;
+        }
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 40px;
+      }
+    }
+
+    .about {
+      margin-top: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+
+      h5 {
+        font-weight: 700;
+        font-size: 18px;
+      }
+      ul {
+        li {
+          margin: 15px;
+          font-weight: 400;
+          font-size: 16px;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

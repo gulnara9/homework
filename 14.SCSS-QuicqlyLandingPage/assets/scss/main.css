@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@me;
+header {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 100%;
+  background-color: #20484F;
+}
+header nav {
+  padding: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+header nav ul li a {
+  color: white;
+}
+header nav h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+header nav .signup-login-btns {
+  display: flex;
+  gap: 20px;
+}
+header nav .signup-login-btns a {
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+header nav .signup-login-btns .login-btn {
+  background-color: transparent;
+  color: white;
+}
+header nav .signup-login-btns .sign-up-btn {
+  background-color: #B8E4DA;
+  color: #20484F;
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+header nav .signup-login-btns {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+header nav .signup-login-btns a {
+  color: white;
+}
+
+.hero-section {
+  height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fafafa;
+}
+.hero-section .double-div {
+  position: relative;
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+}
+.hero-section .double-div .texts {
+  margin-left: 5%;
+  width: 50%;
+  color: #072125;
+  margin-top: 217px;
+}
+.hero-section .double-div .texts h5 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.hero-section .double-div .texts h1 {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+.hero-section .double-div .texts p {
+  margin-bottom: 48px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.hero-section .double-div .texts .buttons {
+  display: flex;
+  gap: 20px;
+}
+.hero-section .double-div .texts .buttons a {
+  border-radius: 5px;
+  padding: 10px 16px;
+}
+.hero-section .double-div .texts .buttons .learn-more-btn {
+  background-color: transparent;
+  color: #20484F;
+  padding: 15px 36px;
+}
+.hero-section .double-div .texts .buttons .sign-up-btn {
+  background-color: #20484F;
+  color: #B8E4DA;
+  border-radius: 5px;
+  padding: 15px 36px;
+}
+.hero-section .double-div .image {
+  margin-top: 190px;
+  margin-right: 5%;
+  position: relative;
+  width: 50%;
+}
+.hero-section .double-div .image .girl-img .girl {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 415px;
+  height: 490px;
+  z-index: 1;
+}
+.hero-section .double-div .image #frame .frame {
+  position: absolute;
+  top: -50px;
+  right: -55px;
+  width: 541px;
+  height: 601px;
+}
+.hero-section .tasks .task {
+  z-index: 6;
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
+.hero-section .tasks .project {
+  z-index: 6;
+  position: absolute;
+  bottom: -15%;
+  right: 15%;
+}
+
+#team-section {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  height: 100vh;
+  margin-top: 100px;
+}
+#team-section .team {
+  padding-bottom: 80px;
+}
+#team-section .team .texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#team-section .team .texts h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#team-section .team .texts p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 500px;
+}
+#team-section .team div {
+  text-align: center;
+}
+#team-section .team h4 {
+  font-weight: 700;
+  font-size: 24px;
+}
+#team-section .team p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #20484F;
+}
+#team-section .team img {
+  width: 250px;
+  height: 250px;
+}
+
+footer {
+  height: 50vh;
+  background-color: #072125;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+footer .footer {
+  margin: 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer .name-icons {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+footer .footer .name-icons .icons i {
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+}
+footer .footer .name-icons h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+footer .footer .about {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+footer .footer .about h5 {
+  font-weight: 700;
+  font-size: 18px;
+}
+footer .footer .about ul li {
+  margin: 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer .footer .about ul li a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
